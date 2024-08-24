@@ -61,7 +61,6 @@ html, body {
   font-weight: 900;
   top: 25px;
   left: 73px;
-  font-style: italic;
 }
 
 .school-type {
@@ -94,16 +93,16 @@ html, body {
   position: absolute;
   color: black;
   font-size: 22px;
-  top: 19px;
-  left: 279px;
+  top: 25px;
+  left: 285px;
 }
 
 .ssam {
   position: absolute;
   color: black;
-  font-size: 39px;
+  font-size: 35px;
   font-family: 'Keania One', sans-serif;
-  top: 9px;
+  top: 17px;
   left: 308px;
 }
 
@@ -156,11 +155,12 @@ html, body {
   position: absolute;
   color: black;
   font-weight: lighter;
-  font-size: 53px;
-  width: 381px;
+  font-size: 40px;
+  font-style: italic;
+  width: 350px;
   height: 35px;
-  top: 583px;
-  left: 980px;
+  top: 575px;
+  left: 950px;
   transform: translateX(-50%);
   text-align: center;
 }
