@@ -1,0 +1,68 @@
+.calender-popup2-child {
+    position: absolute;
+    top: 95.5px;
+    left: 33.5px;
+    border-top: 3px solid #000;
+    box-sizing: border-box;
+    width: 1050px;
+    height: 3px;
+}
+.div {
+    position: absolute;
+    top: 52px;
+    left: 539px;
+    font-size: 26px;
+    text-align: center;
+}
+.div1 {
+    position: absolute;
+    top: 39px;
+    left: 645px;
+    display: inline-block;
+    width: 26px;
+    height: 46px;
+}
+.div2 {
+    position: absolute;
+    top: 39px;
+    left: 472px;
+    display: inline-block;
+    width: 26px;
+    height: 46px;
+    transform:  rotate(180deg);
+    transform-origin: 0 0;
+}
+.calender-popup2-item {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #d9d9d9;
+    width: 1117px;
+    height: 29px;
+}
+.div3 {
+    position: absolute;
+    top: 4px;
+    left: 1066px;
+    font-size: 17px;
+}
+.pngtree-sketch-empty-calendar-icon {
+    position: absolute;
+    top: 120px;
+    left: 194px;
+    width: 730px;
+    height: 470px;
+    object-fit: cover;
+}
+.calender-popup2 {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 623px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 39px;
+    color: #000;
+    font-family: Inter;
+}
+
