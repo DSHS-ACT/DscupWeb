@@ -1,0 +1,190 @@
+.kakao-talk-20240819-193002219-1-icon {
+    position: absolute;
+    top: 76px;
+    left: -213px;
+    width: 1674px;
+    height: 769px;
+    object-fit: cover;
+}
+
+.mainpage-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    width: 1440px;
+    height: 76px;
+}
+
+.mainpage-item {
+    position: absolute;
+    top: 845px;
+    left: 0px;
+    background-color: #fff;
+    width: 1440px;
+    height: 76px;
+}
+
+.i {
+    position: absolute;
+    top: 25px;
+    left: 73px;
+    display: inline-block;
+    font-weight: 900;
+    width: 306px;
+    height: 91px;
+}
+
+.div {
+    position: absolute;
+    top: 9px;
+    left: 73px;
+    font-size: 16px;
+    display: inline-block;
+    width: 166px;
+}
+
+.symbol-img5-removebg-preview-1-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 66px;
+    height: 64px;
+    object-fit: cover;
+}
+
+.group-child {
+    position: absolute;
+    top: 7px;
+    left: 66px;
+    border-right: 1px solid #000;
+    box-sizing: border-box;
+    width: 1px;
+    height: 49px;
+}
+
+.x {
+    position: absolute;
+    top: 19px;
+    left: 279px;
+    font-size: 22px;
+}
+
+.ssam {
+    position: absolute;
+    top: 9px;
+    left: 308px;
+    font-size: 39px;
+    font-family: 'Keania One';
+}
+
+.parent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 410px;
+    height: 116px;
+}
+
+.mainpage-inner {
+    position: absolute;
+    top: 843px;
+    left: 20px;
+    width: 410px;
+    height: 116px;
+}
+
+.logo-1-icon {
+    position: absolute;
+    top: 156px;
+    left: 412px;
+    width: 617px;
+    height: 554px;
+    object-fit: cover;
+}
+
+.logo-2-icon {
+    position: absolute;
+    top: 3px;
+    left: 29px;
+    width: 125px;
+    height: 76px;
+    object-fit: cover;
+}
+
+.div1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.div2 {
+    position: absolute;
+    top: 0px;
+    left: 229px;
+}
+
+.div3 {
+    position: absolute;
+    top: 0px;
+    left: 471px;
+}
+
+.div4 {
+    position: absolute;
+    top: 0px;
+    left: 700px;
+}
+
+.div5 {
+    position: absolute;
+    top: 0px;
+    left: 929px;
+}
+
+.group {
+    position: absolute;
+    top: 27px;
+    left: 348px;
+    width: 761px;
+    height: 27px;
+    font-size: 22px;
+}
+
+.with {
+    position: absolute;
+    top: 583px;
+    left: 798px;
+    font-size: 53px;
+    display: inline-block;
+    width: 381px;
+    height: 35px;
+}
+
+.mainpage {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 3000px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 26px;
+    color: #000;
+    font-family: Inter;
+}
+
+.player-list {
+    position: absolute;
+    top: 100px;
+    left: 348px;
+    width: 761px;
+    height: auto;
+}
+
+.player-group {
+    margin: 20px 0;
+}
+
+.player {
+    margin: 10px 0;
+}
