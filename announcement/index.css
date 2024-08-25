@@ -14,25 +14,10 @@
     height: 76px;
     object-fit: cover;
 }
-.div {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-}
-.div1 {
-    position: absolute;
-    top: 0px;
-    left: 229px;
-}
-.div2 {
-    position: absolute;
-    top: 0px;
-    left: 471px;
-}
-.div3 {
-    position: absolute;
-    top: 0px;
-    left: 700px;
+.menu-item {
+    color: black;
+    font-size: 22px;
+    font-weight: 400;
 }
 .group4 {
     width: 100%;
