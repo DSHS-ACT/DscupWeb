@@ -5,7 +5,6 @@ import os
 app = Flask(__name__)
 votes_db = {}
 players_db = {}
-
 def load_players():
     with open('static/player.csv', mode='r', encoding='utf-8') as f:
         reader = csv.DictReader(f)

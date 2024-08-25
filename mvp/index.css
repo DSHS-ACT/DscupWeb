@@ -14,33 +14,22 @@
     height: 76px;
     object-fit: cover;
 }
-.div {
-    position: absolute;
-    top: 0px;
-    left: 0px;
+.menu-item {
+    color: black;
+    font-size: 22px;
+    font-weight: 400;
 }
-.div1 {
-    position: absolute;
-    top: 0px;
-    left: 229px;
-}
-.div2 {
-    position: absolute;
-    top: 0px;
-    left: 471px;
-}
-.div3 {
-    position: absolute;
-    top: 0px;
-    left: 700px;
-}
-.parent {
+.group4 {
+    width: 100%;
+    max-width: 761px;
+    height: 27px;
     position: absolute;
     top: 27px;
-    left: 348px;
-    width: 761px;
-    height: 27px;
-}
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+  }
 .mainpage-item {
     position: absolute;
     top: 78.5px;
@@ -227,13 +216,9 @@
 }
 .mainpage {
     width: 100%;
+    height: 100%;
     position: relative;
-    background-color: #fff;
-    height: 3000px;
-    overflow: hidden;
-    text-align: left;
-    font-size: 22px;
-    color: #000;
-    font-family: Inter;
+    background-color: white;
+    margin: 0 auto;
 }
 
