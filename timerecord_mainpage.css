@@ -19,21 +19,7 @@
     top: 0px;
     left: 0px;
 }
-.div1 {
-    position: absolute;
-    top: 0px;
-    left: 229px;
-}
-.div2 {
-    position: absolute;
-    top: 0px;
-    left: 471px;
-}
-.div3 {
-    position: absolute;
-    top: 0px;
-    left: 700px;
-}
+
 .parent {
     position: absolute;
     top: 27px;
