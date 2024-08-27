@@ -14,19 +14,22 @@
     height: 76px;
     object-fit: cover;
 }
-.div {
-    position: absolute;
-    top: 0px;
-    left: 0px;
+.menu-item {
+  color: black;
+  font-size: 22px;
+  font-weight: 400;
 }
-
-.parent {
+.group4 {
+    width: 100%;
+    max-width: 761px;
+    height: 27px;
     position: absolute;
     top: 27px;
-    left: 348px;
-    width: 761px;
-    height: 27px;
-}
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+  }
 .mainpage-item {
     position: absolute;
     top: 78.5px;
@@ -38,7 +41,7 @@
 }
 .mainpage-inner {
     position: absolute;
-    top: 202.5px;
+    top: 100.5px;
     left: 87.5px;
     border-top: 3px solid #000;
     box-sizing: border-box;
