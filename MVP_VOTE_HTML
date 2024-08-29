@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVP 투표</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 170vh;
+        }
+
+        h1 {
+            color: #4CAF50;
+        }
+
+        form {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px 0;
+            width: 300px;
+            text-align: center;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 1em;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .results-button {
+            margin-top: 15px;
+            background-color: #008CBA;
+        }
+
+        .results-button:hover {
+            background-color: #007bb5;
+        }
+    </style>
+</head>
+<body>
+    <h1>선수 등록</h1>
+    <form action="/register" method="POST">
+        <label for="name">이름:</label>
+        <input type="text" id="name" name="name">
+        <button type="submit">등록</button>
+    </form>
+
+    <h1>투표</h1>
+    <form action="/vote" method="POST">
+        <label for="name">선수 이름:</label>
+        <input type="text" id="name" name="name">
+        <button type="submit">투표</button>
+    </form>
+
+    <form action="/results" method="GET">
+        <button type="submit" class="results-button">결과 확인</button>
+    </form>
+</body>
+</html>
+z
